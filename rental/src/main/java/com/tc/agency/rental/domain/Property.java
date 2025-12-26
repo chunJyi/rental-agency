@@ -17,7 +17,7 @@ public class Property extends BaseEntity {
     @Column(nullable = false)
     private String title;
     @Enumerated(EnumType.STRING)
-    private PropertyType type;
+    private PropertyType propertyType;
     private String location;
     private BigDecimal price;
     @Enumerated(EnumType.STRING)
